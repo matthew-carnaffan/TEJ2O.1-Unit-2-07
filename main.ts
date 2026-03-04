@@ -2,7 +2,7 @@
  *
  * Created by: Matthew Carnaffan
  * Created on: March 2026
- * This program adds one point everytime "A" is clicked, when "B" is clicked the points reser
+ * This program adds one point everytime "A" is clicked, when "B" is clicked the points reset
 */
 
 basic.clearScreen()
@@ -21,7 +21,7 @@ basic.showNumber(cookieAmount)
 })
 
 /* This code resets number of points on button "B" press and displays number of points, after 
-* three seconds it will ruturn to happy face.
+* three seconds it will ruturn to happy face icon.
 */
 
 input.onButtonPressed(Button.B, function() {
